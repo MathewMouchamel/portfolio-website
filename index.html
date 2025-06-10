@@ -1,0 +1,956 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mathew Mouchamel</title>
+    <link href="./style.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Edu+NSW+ACT+Cursive:wght@400..700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav
+      class="navbar navbar-expand-lg bg-dark rounded-bottom-5 mx-auto fixed-top nav-bg"
+      style="width: fit-content"
+    >
+      <div class="container-fluid justify-content-center">
+        <a class="navbar-brand text-light" href="#top"
+          ><img class="rounded-4" src="./mm-icon.png" height="30px"
+        /></a>
+        <button
+          class="navbar-toggler bg-light"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#customNavbar"
+          aria-controls="customNavbar"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div
+          class="collapse navbar-collapse justify-content-center"
+          id="customNavbar"
+        >
+          <ul class="navbar-nav gap-3">
+            <li class="nav-item">
+              <a href="#top" class="nav-link text-light">Top</a>
+            </li>
+            <li class="nav-item">
+              <a href="#summary" class="nav-link text-light">Summary</a>
+            </li>
+            <li class="nav-item">
+              <a href="#network" class="nav-link text-light">Network</a>
+            </li>
+            <li class="nav-item">
+              <a href="#experience" class="nav-link text-light">Experience</a>
+            </li>
+            <li class="nav-item">
+              <a href="#projects" class="nav-link text-light">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a href="#skills" class="nav-link text-light">Skills</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Top Poster -->
+    <div id="top" class="container col-xxl-8 px-4 py-5">
+      <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+        <div class="col-10 col-sm-8 col-lg-6">
+          <img
+            src="./pfp-img.jpeg"
+            class="d-block mx-lg-auto img-fluid rounded-5"
+            alt="Bootstrap Themes"
+            width="700"
+            height="500"
+            loading="lazy"
+          />
+        </div>
+        <div class="col-lg-6">
+          <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">
+            Mathew Mouchamel
+          </h1>
+          <p class="lead">
+            I'm a computer science and data science student at UC Berkeley with
+            a passion for building practical, impactful technology. I love
+            creating software that solves real problems and exploring new ideas
+            through code. Take a look at what I’ve built, what I’m learning, and
+            the experiences that have shaped my journey so far.
+          </p>
+          <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+            <a
+              type="button"
+              class="btn btn-primary btn-lg px-4 me-md-2"
+              href="#summary"
+            >
+              Summary
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-chevron-down"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708"
+                />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Summary -->
+    <div
+      id="summary"
+      class="px-4 pt-5 pb-5 text-center border-bottom bg-checker-dark"
+    >
+      <div class="container">
+        <h1
+          class="display-4 fw-bold text-white pb-3 border-bottom border-secondary"
+        >
+          Summary
+        </h1>
+      </div>
+      <div class="col-lg-6 pt-3 mx-auto">
+        <p class="lead mb-5 text-light">
+          I'm a results-oriented software engineer with a strong foundation in
+          computer science, data science, and machine learning. I love building
+          scalable, efficient systems and applying analytical thinking to solve
+          real-world problems. Whether it’s developing backend infrastructure or
+          working on intelligent applications, I’m driven by clean code,
+          impactful solutions, and continuous learning in fast-paced tech
+          environments.
+        </p>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="125"
+          fill="currentColor"
+          class="bi bi-envelope-paper-fill text-light my-5"
+          viewBox="0 0 16 16"
+        >
+          <path
+            fill-rule="evenodd"
+            d="M6.5 9.5 3 7.5v-6A1.5 1.5 0 0 1 4.5 0h7A1.5 1.5 0 0 1 13 1.5v6l-3.5 2L8 8.75zM1.059 3.635 2 3.133v3.753L0 5.713V5.4a2 2 0 0 1 1.059-1.765M16 5.713l-2 1.173V3.133l.941.502A2 2 0 0 1 16 5.4zm0 1.16-5.693 3.337L16 13.372v-6.5Zm-8 3.199 7.941 4.412A2 2 0 0 1 14 16H2a2 2 0 0 1-1.941-1.516zm-8 3.3 5.693-3.162L0 6.873v6.5Z"
+          />
+        </svg>
+        <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-4">
+          <button type="button" class="btn btn-primary btn-lg px-4 me-sm-3">
+            Resume Copy
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="bi bi-download"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5"
+              />
+              <path
+                d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708z"
+              />
+            </svg>
+          </button>
+        </div>
+        <p class="lead mb-5 text-light">
+          For a comprehensive overview of my background, experience, and
+          technical projects, download my resume above.
+        </p>
+      </div>
+    </div>
+
+    <!-- Network -->
+
+    <div id="network" class="container px-4 py-5">
+      <h1
+        class="text-center display-4 fw-bold text-black pb-3 border-bottom border-secondary"
+      >
+        Network
+      </h1>
+      <div class="row row-cols-1 row-cols-md-2 align-items-md-center g-5 py-5">
+        <div class="col d-flex flex-column align-items-start gap-2">
+          <h2 class="fw-bold text-body-emphasis">Let’s Connect</h2>
+          <p class="text-body-secondary">
+            Explore the platforms where I share my work, solve problems, and
+            connect with others in tech.
+          </p>
+          <a href="#experience" class="btn btn-primary btn-lg"
+            >View Experiences
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="bi bi-chevron-down"
+              viewBox="0 0 16 16"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708"
+              />
+            </svg>
+          </a>
+        </div>
+
+        <div class="col">
+          <div class="row row-cols-1 row-cols-sm-2 g-4">
+            <!-- LinkedIn -->
+            <div class="col d-flex flex-column gap-2">
+              <a
+                ><div
+                  class="d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient rounded-5 p-3"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="32"
+                    height="32"
+                    fill="currentColor"
+                    class="bi bi-linkedin"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"
+                    />
+                  </svg></div
+              ></a>
+              <h4 class="fw-semibold mb-0 text-body-emphasis">LinkedIn</h4>
+              <p class="text-body-secondary justify-content-left">
+                Explore my professional background, work experience, and skills.
+              </p>
+              <a
+                href="https://www.linkedin.com/in/mathew-mouchamel-55494720b/"
+                class="icon-link"
+                style="margin-top: -10px"
+              >
+                View
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-chevron-right"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708"
+                  />
+                </svg>
+              </a>
+            </div>
+
+            <!-- GitHub -->
+            <div class="col d-flex flex-column gap-2">
+              <a
+                ><div
+                  class="d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient rounded-5 p-3"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="32"
+                    height="32"
+                    fill="white"
+                    class="bi bi-github"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M8 0C3.58 0 0 3.58 0 8a8 8 0 0 0 5.47 7.59c.4.074.547-.174.547-.385 0-.19-.007-.693-.01-1.36-2.226.483-2.695-1.073-2.695-1.073-.364-.923-.89-1.168-.89-1.168-.727-.497.055-.487.055-.487.803.056 1.225.825 1.225.825.715 1.224 1.873.87 2.33.665.073-.518.28-.87.508-1.07-1.777-.202-3.644-.888-3.644-3.955 0-.874.312-1.588.823-2.148-.083-.202-.357-1.017.078-2.12 0 0 .672-.215 2.2.82a7.647 7.647 0 0 1 2-.27c.68.003 1.36.092 2 .27 1.528-1.035 2.2-.82 2.2-.82.435 1.103.161 1.918.08 2.12.513.56.823 1.274.823 2.148 0 3.077-1.87 3.75-3.65 3.947.29.25.547.735.547 1.48 0 1.07-.01 1.93-.01 2.195 0 .213.145.462.55.384A8.001 8.001 0 0 0 16 8c0-4.42-3.58-8-8-8z"
+                    />
+                  </svg></div
+              ></a>
+              <h4 class="fw-semibold mb-0 text-body-emphasis">GitHub</h4>
+              <p class="text-body-secondary">
+                Browse my code repositories and the software I've built.
+              </p>
+              <a
+                href="https://github.com/MathewMouchamel"
+                class="icon-link"
+                style="margin-top: -10px"
+              >
+                View
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-chevron-right"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708"
+                  />
+                </svg>
+              </a>
+            </div>
+
+            <!-- Gmail -->
+            <div class="col d-flex flex-column gap-2">
+              <a
+                ><div
+                  class="d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient rounded-5 p-3"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="32"
+                    height="32"
+                    fill="white"
+                    class="bi bi-envelope-fill"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555z"
+                    />
+                    <path
+                      d="M0 4.697v7.104l5.803-3.558L0 4.697zM6.761 8.83l-6.76 4.15A2 2 0 0 0 2 14h12a2 2 0 0 0 1.998-1.02l-6.76-4.15L8 9.586l-1.239-.757z"
+                    />
+                    <path d="M16 4.697l-5.803 3.549L16 11.801V4.697z" />
+                  </svg></div
+              ></a>
+              <h4 class="fw-semibold mb-0 text-body-emphasis">Gmail</h4>
+              <p class="text-body-secondary">
+                Reach out directly to start a conversation or ask questions
+                about my work, projects, or experience.
+              </p>
+              <a
+                href="mailto:mathewmouchamel123@gmail.com"
+                class="icon-link"
+                style="margin-top: -10px"
+              >
+                View
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-chevron-right"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708"
+                  />
+                </svg>
+              </a>
+            </div>
+
+            <!-- LeetCode (custom icon placeholder) -->
+            <div class="col d-flex flex-column gap-2">
+              <a
+                ><div
+                  class="d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient rounded-5 p-3"
+                >
+                  <!-- You can use any neutral icon until you upload a real LeetCode SVG -->
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="32"
+                    height="32"
+                    fill="currentColor"
+                    class="bi bi-terminal-fill"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M0 3a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm9.5 5.5h-3a.5.5 0 0 0 0 1h3a.5.5 0 0 0 0-1m-6.354-.354a.5.5 0 1 0 .708.708l2-2a.5.5 0 0 0 0-.708l-2-2a.5.5 0 1 0-.708.708L4.793 6.5z"
+                    />
+                  </svg></div
+              ></a>
+              <h4 class="fw-semibold mb-0 text-body-emphasis">LeetCode</h4>
+              <p class="text-body-secondary">
+                A glimpse into my daily problem-solving practice.
+              </p>
+              <a
+                href="https://leetcode.com/u/mathewmouchamel123/"
+                class="icon-link"
+                style="margin-top: -10px"
+              >
+                View
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-chevron-right"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708"
+                  />
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Experience -->
+    <div id="experience" class="bg-experience">
+      <div class="container">
+        <div class="text-center pt-5 pb-3 border-bottom border-light">
+          <h1 class="display-4 fw-bold text-white text-align-center">
+            Experience
+          </h1>
+        </div>
+      </div>
+      <div class="container-fluid">
+        <div class="row">
+          <!-- ComFreight -->
+          <div class="col-12">
+            <div class="container my-5">
+              <div
+                class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg bg-dark"
+              >
+                <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
+                  <h1 class="display-4 fw-bold lh-1 text-light">ComFreight</h1>
+                  <h2 class="display-7 fw-bold text-light">
+                    Data Scientist Intern
+                  </h2>
+                  <p class="lead text-light">
+                    Led 5 students in building a decision-tree-based revenue
+                    prediction model with 67% accuracy in Python using
+                    scikit-learn. Coordinated data ingestion from PostgreSQL and
+                    managed version control with Git. Streamlined hyperparameter
+                    tuning by implementing GridSearchCV within a Dockerized
+                    environment, reducing computation time by 25% through
+                    parallel processing and optimized resource allocation.
+                    Engineered feature selection and preprocessing pipelines
+                    (using pandas and scikit-learn) to boost model
+                    interpretability and reduce training time by 50%,
+                    integrating data from AWS S3 for centralized access.
+                    Collaborated with engineers and analysts to containerize the
+                    finalized ML model using Docker, deploy on AWS EC2, and
+                    align data-driven insights with the broader business
+                    strategy.
+                  </p>
+                  <div
+                    class="d-grid gap-2 d-md-flex justify-content-md-start mb-4 mb-lg-3"
+                  >
+                    <a
+                      href="https://haulpay.io/"
+                      target="_blank"
+                      class="btn btn-primary btn-lg px-4 me-md-2 fw-bold"
+                      role="button"
+                    >
+                      View Company
+                    </a>
+                  </div>
+                </div>
+                <div class="col-lg-4 offset-lg-1 p-0 overflow-hidden shadow-lg">
+                  <img
+                    class="rounded-lg-3"
+                    src="./comfreight-img.png"
+                    alt=""
+                    width="400"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Cornell I -->
+          <div class="col-xl-6">
+            <div class="container my-5">
+              <div
+                class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border bg-dark shadow-lg"
+              >
+                <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
+                  <h1 class="display-4 fw-bold lh-1 text-light">
+                    Cornell Tech ML Bootcamp P1
+                  </h1>
+                  <h2 class="display-7 fw-bold text-light">ML Project Lead</h2>
+                  <p class="lead text-light">
+                    Developed an Annual Income classification system using
+                    scikit-learn’s Gradient-Boosted Decision Trees, orchestrated
+                    in a Docker environment and scripted in Python to ensure
+                    reproducible experiments. Achieved 83% accuracy in
+                    classifying annual incomes below $50K, optimizing model
+                    robustness with cross-validation. Enhanced predictive
+                    accuracy by 8% through a comprehensive GridSearchCV approach
+                    on the 1994 Census dataset, parallelizing runs with Dask to
+                    reduce training time. Applied exploratory data analysis with
+                    Matplotlib and Seaborn to uncover nonlinear relationships
+                    between features and income. Built a standardized ML
+                    pipeline in Jupyter Notebook, using pandas and NumPy for
+                    data handling and scikit-learn’s Pipeline API to seamlessly
+                    integrate preprocessing and model evaluation.
+                  </p>
+                  <div
+                    class="d-grid gap-2 d-md-flex justify-content-md-start mb-4 mb-lg-3"
+                  >
+                    <a
+                      href="https://tech.cornell.edu/impact/break-through-tech/break-through-ai/"
+                      target="_blank"
+                      class="btn btn-primary btn-lg px-4 me-md-2 fw-bold"
+                      role="button"
+                    >
+                      View Bootcamp
+                    </a>
+                  </div>
+                </div>
+                <div class="col-lg-4 offset-lg-1 p-0 overflow-hidden shadow-lg">
+                  <img
+                    class="rounded-lg-3"
+                    src="./cornell-img.png"
+                    alt=""
+                    width="400"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Cornell II -->
+          <div class="col-xl-6">
+            <div class="container my-5">
+              <div
+                class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border bg-dark shadow-lg"
+              >
+                <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
+                  <h1 class="display-4 fw-bold lh-1 text-light">
+                    Cornell Tech ML Bootcamp P2
+                  </h1>
+                  <h2 class="display-7 fw-bold text-light">ML Project Lead</h2>
+                  <p class="lead text-light">
+                    Optimized an Airbnb host rating prediction model with
+                    scikit-learn’s RandomForestClassifier, achieving 80%+
+                    accuracy by tuning hyperparameters and parallelizing
+                    training on AWS EC2 instances. Improved model performance by
+                    15% through systematic feature selection using
+                    scikit-learn’s SelectKBest and RFE and hyperparameter tuning
+                    with GridSearchCV, managed within Git for version control.
+                    Enhanced data coverage for 40% of the dataset by creating
+                    robust preprocessing pipelines in Python, including outlier
+                    treatment, data imputation, and normalization to ensure data
+                    consistency. Leveraged NumPy, pandas, and Seaborn to explore
+                    and visualize 20,000 data points, enabling informed feature
+                    engineering decisions then presented results through
+                    interactive Tableau dashboards.
+                  </p>
+                  <div
+                    class="d-grid gap-2 d-md-flex justify-content-md-start mb-4 mb-lg-3"
+                  >
+                    <a
+                      href="https://tech.cornell.edu/impact/break-through-tech/break-through-ai/"
+                      target="_blank"
+                      class="btn btn-primary btn-lg px-4 me-md-2 fw-bold"
+                      role="button"
+                    >
+                      View Bootcamp
+                    </a>
+                  </div>
+                </div>
+                <div class="col-lg-4 offset-lg-1 p-0 overflow-hidden shadow-lg">
+                  <img
+                    class="rounded-lg-3"
+                    src="./cornell-img.png"
+                    alt=""
+                    width="400"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Projects -->
+    <div id="projects" class="pattern-wrapper position-relative">
+      <div class="container">
+        <h1
+          class="display-4 fw-bold text-dark text-center pt-5 pb-3 border-bottom border-secondary"
+        >
+          Projects
+        </h1>
+      </div>
+      <div class="container-fluid">
+        <div class="row">
+          <!-- Pacman -->
+          <div class="col-12">
+            <div class="container-fluid col-xxl-8 px-4 pt-5">
+              <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+                <div class="col-10 col-sm-8 col-lg-6">
+                  <img
+                    src="./pacman-img.jpg"
+                    class="d-block mx-lg-auto img-fluid"
+                    alt="Bootstrap Themes"
+                    width="100%"
+                    loading="lazy"
+                    style="border: 5px solid black"
+                  />
+                </div>
+                <div class="col-lg-6">
+                  <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">
+                    Pacman Ghostbusters
+                  </h1>
+                  <p class="lead">
+                    Implemented Bayesian Inference & Factor Operations in
+                    Python, constructing a dynamic Bayes net with exact and
+                    approximate inference to track hidden “ghost” states in real
+                    time. Engineered Variable Elimination Pipelines by designing
+                    robust factor-joining, marginalization, and elimination
+                    functions, reducing redundant computations and enabling
+                    rapid probability updates for each state transition.
+                    Developed Particle Filtering Algorithms (approximate
+                    inference) to scale multi-ghost tracking, leveraging
+                    NumPy-based data structures, distribution sampling, and
+                    optimized weighting/resampling methods for improved
+                    computational efficiency. Optimized Performance by
+                    implementing inference algorithms in a modular and
+                    vectorized fashion using NumPy, SciPy, and Python’s
+                    multiprocessing libraries, reducing runtime overhead in
+                    large-scale probabilistic state estimation.
+                  </p>
+                  <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                    <button
+                      type="button"
+                      class="btn btn-primary btn-lg px-4 me-md-2 disabled"
+                    >
+                      View
+                    </button>
+                    <button
+                      type="button"
+                      class="btn btn-outline-secondary btn-lg px-4 disabled"
+                    >
+                      Demo Video
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Digit Classification -->
+          <div class="col-12">
+            <div class="container-fluid col-xxl-8 px-4 pb-5">
+              <div class="row flex-lg-row align-items-center g-5 py-5">
+                <div class="col-10 col-sm-8 col-lg-6">
+                  <img
+                    src="./digit-img.png"
+                    class="d-block mx-lg-auto img-fluid"
+                    alt="Bootstrap Themes"
+                    width="100%"
+                    loading="lazy"
+                    style="border: 5px solid black"
+                  />
+                </div>
+                <div class="col-lg-6">
+                  <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">
+                    Digit Classification Model
+                  </h1>
+                  <p class="lead">
+                    Developed a comprehensive ML pipeline in PyTorch,
+                    implementing multilayer perceptrons, CNNs, and RNN-based
+                    architectures to develop a digit classification (MNIST) to
+                    language identification. Engineered end-to-end neural
+                    networks with batch processing, cross-entropy and MSE
+                    losses, and Adam optimizers to tune hyperparameters (hidden
+                    layer size, learning rate, batch size) to consistently
+                    achieve 97% accuracy on digit classification tasks. Extended
+                    standard feed-forward networks by integrating convolutional
+                    layers for 2D feature extraction, improving classification
+                    accuracy on image-based data. Implemented a recurrent neural
+                    network (RNN) module for language identification, combining
+                    learned embeddings and hidden-state transitions to handle
+                    variable-length text inputs.
+                  </p>
+                  <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                    <button
+                      type="button"
+                      class="btn btn-primary btn-lg px-4 me-md-2 disabled"
+                    >
+                      View
+                    </button>
+                    <button
+                      type="button"
+                      class="btn btn-outline-secondary btn-lg px-4 disabled"
+                    >
+                      Demo Video
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Skills -->
+    <div id="skills" class="skills-bg">
+      <div class="container px-4 py-5" id="icon-grid">
+        <h1 class="display-4 fw-bold text-white text-center border-bottom py-3">
+          Skills
+        </h1>
+        <!-- Backend -->
+        <div class="flex">
+          <h2 class="display-7 fw-bold text-white text-left">Backend</h2>
+          <div class="flex-skills">
+            <button type="button" class="btn btn-primary btn-outline-light">
+              Python
+            </button>
+            <button type="button" class="btn btn-primary btn-outline-light">
+              C++
+            </button>
+            <button type="button" class="btn btn-primary btn-outline-light">
+              C
+            </button>
+            <button type="button" class="btn btn-primary btn-outline-light">
+              Java
+            </button>
+            <button type="button" class="btn btn-primary btn-outline-light">
+              SQL
+            </button>
+            <button type="button" class="btn btn-primary btn-outline-light">
+              Perl
+            </button>
+            <button type="button" class="btn btn-primary btn-outline-light">
+              Go
+            </button>
+            <button type="button" class="btn btn-primary btn-outline-light">
+              Rust
+            </button>
+            <button type="button" class="btn btn-primary btn-outline-light">
+              Kotlin
+            </button>
+            <button type="button" class="btn btn-primary btn-outline-light">
+              GraphQL
+            </button>
+            <button type="button" class="btn btn-primary btn-outline-light">
+              Redis
+            </button>
+            <button type="button" class="btn btn-primary btn-outline-light">
+              FastAPI
+            </button>
+            <button type="button" class="btn btn-primary btn-outline-light">
+              Django
+            </button>
+            <button type="button" class="btn btn-primary btn-outline-light">
+              Flask
+            </button>
+            <button type="button" class="btn btn-primary btn-outline-light">
+              gRPC
+            </button>
+            <button type="button" class="btn btn-primary btn-outline-light">
+              Kafka
+            </button>
+          </div>
+        </div>
+
+        <!-- Frontend -->
+        <div class="flex">
+          <h2 class="display-7 fw-bold text-white text-left">Frontend</h2>
+          <div class="flex-skills">
+            <button type="button" class="btn btn-primary btn-outline-light">
+              JavaScript
+            </button>
+            <button type="button" class="btn btn-primary btn-outline-light">
+              TypeScript
+            </button>
+            <button type="button" class="btn btn-primary btn-outline-light">
+              HTML
+            </button>
+            <button type="button" class="btn btn-primary btn-outline-light">
+              CSS
+            </button>
+            <button type="button" class="btn btn-primary btn-outline-light">
+              Node.js
+            </button>
+            <button type="button" class="btn btn-primary btn-outline-light">
+              React.js
+            </button>
+            <button type="button" class="btn btn-primary btn-outline-light">
+              Vue.js
+            </button>
+            <button type="button" class="btn btn-primary btn-outline-light">
+              Svelte
+            </button>
+            <button type="button" class="btn btn-primary btn-outline-light">
+              Redux
+            </button>
+            <button type="button" class="btn btn-primary btn-outline-light">
+              Next.js
+            </button>
+            <button type="button" class="btn btn-primary btn-outline-light">
+              Tailwind CSS
+            </button>
+          </div>
+        </div>
+
+        <!-- Libraries/Frameworks -->
+        <div class="flex">
+          <h2 class="display-7 fw-bold text-white text-left">
+            Libraries/Frameworks
+          </h2>
+          <div class="flex-skills">
+            <button type="button" class="btn btn-primary btn-outline-light">
+              PyTorch
+            </button>
+            <button type="button" class="btn btn-primary btn-outline-light">
+              Matplotlib
+            </button>
+            <button type="button" class="btn btn-primary btn-outline-light">
+              Seaborn
+            </button>
+            <button type="button" class="btn btn-primary btn-outline-light">
+              scikit-learn
+            </button>
+            <button type="button" class="btn btn-primary btn-outline-light">
+              NumPy
+            </button>
+            <button type="button" class="btn btn-primary btn-outline-light">
+              pandas
+            </button>
+            <button type="button" class="btn btn-primary btn-outline-light">
+              MATLAB
+            </button>
+            <button type="button" class="btn btn-primary btn-outline-light">
+              TensorFlow
+            </button>
+            <button type="button" class="btn btn-primary btn-outline-light">
+              Keras
+            </button>
+            <button type="button" class="btn btn-primary btn-outline-light">
+              OpenCV
+            </button>
+          </div>
+        </div>
+
+        <!-- Developer Tools -->
+        <div class="flex">
+          <h2 class="display-7 fw-bold text-white text-left">
+            Developer Tools
+          </h2>
+          <div class="flex-skills">
+            <button type="button" class="btn btn-primary btn-outline-light">
+              Git
+            </button>
+            <button type="button" class="btn btn-primary btn-outline-light">
+              Docker
+            </button>
+            <button type="button" class="btn btn-primary btn-outline-light">
+              Kubernetes
+            </button>
+            <button type="button" class="btn btn-primary btn-outline-light">
+              Terraform
+            </button>
+            <button type="button" class="btn btn-primary btn-outline-light">
+              Jenkins
+            </button>
+            <button type="button" class="btn btn-primary btn-outline-light">
+              Ansible
+            </button>
+            <button type="button" class="btn btn-primary btn-outline-light">
+              Postman
+            </button>
+            <button type="button" class="btn btn-primary btn-outline-light">
+              Apache Airflow
+            </button>
+            <button type="button" class="btn btn-primary btn-outline-light">
+              AWS
+            </button>
+            <button type="button" class="btn btn-primary btn-outline-light">
+              GCP
+            </button>
+            <button type="button" class="btn btn-primary btn-outline-light">
+              Azure
+            </button>
+            <button type="button" class="btn btn-primary btn-outline-light">
+              Helm
+            </button>
+          </div>
+        </div>
+
+        <!-- Machine Learning -->
+        <div class="flex">
+          <h2 class="display-7 fw-bold text-white text-left">
+            Machine Learning
+          </h2>
+          <div class="flex-skills">
+            <button type="button" class="btn btn-primary btn-outline-light">
+              CNNs
+            </button>
+            <button type="button" class="btn btn-primary btn-outline-light">
+              RNNs
+            </button>
+            <button type="button" class="btn btn-primary btn-outline-light">
+              LSTMs
+            </button>
+            <button type="button" class="btn btn-primary btn-outline-light">
+              Reinforcement Learning
+            </button>
+            <button type="button" class="btn btn-primary btn-outline-light">
+              A/B Testing
+            </button>
+            <button type="button" class="btn btn-primary btn-outline-light">
+              BERT
+            </button>
+            <button type="button" class="btn btn-primary btn-outline-light">
+              GPT
+            </button>
+            <button type="button" class="btn btn-primary btn-outline-light">
+              T5
+            </button>
+            <button type="button" class="btn btn-primary btn-outline-light">
+              GANs
+            </button>
+            <button type="button" class="btn btn-primary btn-outline-light">
+              AutoML
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="container">
+      <footer class="py-3 my-4">
+        <ul
+          class="nav justify-content-center border-bottom border-dark pb-3 mb-3"
+        >
+          <li class="nav-item">
+            <a href="#home" class="nav-link px-2 text-dark">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#summary" class="nav-link px-2 text-dark">Summary</a>
+          </li>
+          <li class="nav-item">
+            <a href="#network" class="nav-link px-2 text-dark">Network</a>
+          </li>
+          <li class="nav-item">
+            <a href="#experience" class="nav-link px-2 text-dark">Experience</a>
+          </li>
+          <li class="nav-item">
+            <a href="#skills" class="nav-link px-2 text-dark">Skills</a>
+          </li>
+        </ul>
+        <p class="text-center text-body-secondary">© 2025 Mathew Mouchamel</p>
+      </footer>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
